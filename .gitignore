@@ -1,0 +1,27 @@
+# 环境变量与密钥
+.env
+.env.local
+
+# 本地数据（上传的简历文件等）
+data/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+
+# IDE / 系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# HuggingFace 模型缓存（bge-m3）
+.hf_cache/
